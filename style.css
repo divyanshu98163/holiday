@@ -1,0 +1,3 @@
+.rupee-symbol::before {
+  content: "\20B9";
+}
