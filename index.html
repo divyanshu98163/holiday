@@ -13,162 +13,628 @@
 </head>
 
 <body>
-    <div class="container mt-5" style="padding: 20px ;">
-        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
-                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                    <h1>
-                        <p>Domestic</p>
-                    </h1>
-                </button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
-                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                    <h1>
-                        <p>International</p>
-                    </h1>
-                </button>
-            </li>
+    <div>
+        <div class="container mt-5" style="padding: 20px ;">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">
+                        <h1>
+                            <p>Domestic</p>
+                        </h1>
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">
+                        <h1>
+                            <p>International</p>
+                        </h1>
+                    </button>
+                </li>
 
-        </ul>
+            </ul>
+        </div>
+
+        <div class="container mt-5" style="padding: 20px ;">
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                    tabindex="0">
+                    <div class="row p-5 mt-5 text-center">
+                        <div id="carouselExample" class="carousel slide">
+                            <div>
+                                <div class="carousel-item active">
+
+                                    <div class="row">
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg "> <img style="border-radius: 20px; "
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/himachal-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px; ">
+                                                <p>Himachal</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 9500
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/goa-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Goa</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 8000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/kerala-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Kerala</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 11999
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/andaman-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Andaman</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 14999
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+
+                                    <div class="row">
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg "> <img style="border-radius: 20px; "
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/south-india-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px; ">
+                                                <p>South India</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 9500
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/north-east-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>North East</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 8000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/rajesthan-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Rajasthan</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 11999
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/andaman-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Andaman</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 14999
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="prev">
+                                <img src="https://images.emtcontent.com/holiday-img/home-img/next.svg"
+                                    style="width: 50px; height: 50px;margin-right: 150px; margin-bottom: 20px;"
+                                    class="d-block w-100" alt="...">
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                data-bs-slide="next">
+
+                                <img src="https://images.emtcontent.com/holiday-img/home-img/prev.svg"
+                                    style="width: 50px; height: 50px; margin-left: 150px; margin-bottom: 20px;"
+                                    class="d-block w-100" alt="...">
+
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
+                    tabindex="0">
+                    <div class="row p-5 mt-5 text-center">
+
+
+
+
+
+
+
+
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/vietnam-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Vietnam</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 23000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/dubai-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Dubai</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 23000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/bali-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Bali</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 19500
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/europe-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Europe</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 88000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/vietnam-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Vietnam</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 23000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/dubai-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Dubai</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 23000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/bali-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Bali</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 19500
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-3 p-3">
+                                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
+                                                    src="https://images.emtcontent.com/holiday-img/home-img/europe-handpckd.webp"
+                                                    alt="Brokerage" class="img-fluid">
+                                            </a>
+                                            <div class="img-overlay"
+                                                style="background-color: antiquewhite; border-radius: 20px;">
+                                                <p>Europe</p>
+                                                <price>
+                                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 88000
+                                                        &nbsp;&nbsp;&nbsp; <a href="#"
+                                                            style="text-decoration: none;">Explore &rarr; </a> </p>
+                                                </price>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <img src="https://images.emtcontent.com/holiday-img/home-img/next.svg"
+                                    style="width: 50px; height: 50px;margin-right: 150px; margin-bottom: 20px;"
+                                    class="d-block w-100" alt="...">
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <img src="https://images.emtcontent.com/holiday-img/home-img/prev.svg"
+                                    style="width: 50px; height: 50px; margin-left: 150px; margin-bottom: 20px;"
+                                    class="d-block w-100" alt="...">
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
 
+
+
     <div class="container mt-5" style="padding: 20px ;">
-        <div class="tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
-                tabindex="0">
-                <div class="row p-5 mt-5 text-center">
-                    <div class="row">
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg "> <img style="border-radius: 20px; "
-                                    src="https://images.emtcontent.com/holiday-img/home-img/himachal-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
+        <h1 style="font-weight: bold; font-style: oblique;">Explore Holidays By Theme</h1>
+        <p>Find your perfect getaway, tailored to your interests.</p>
+    </div>
+    <div class="container mt-5" style="padding: 20px ;">
+        <div class="carousel-item active">
 
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px; ">
-                                <p>Himachal</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 9500 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="row" style="margin-left: 20px;">
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/hn_moon.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Honeymoon</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/adventure.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Adventure</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/safari-trails.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Safari Trails</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/easybookicon.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">Easy
+                                        Booking</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/beach.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">Beach
+                                    </p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/family-retreat.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Family Retreat</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
                             </div>
 
                         </div>
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/goa-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Goa</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 8000 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
-                            </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="row" style="margin-left: 100px;">
+                            <div class="col-2 p-3">
 
-                        </div>
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/kerala-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Kerala</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 11999 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
-                            </div>
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/hn_moon.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Honeymoon</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
 
-                        </div>
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/andaman-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Andaman</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 14999 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/adventure.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Adventure</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/safari-trails.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Safari Trails</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/easybookicon.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">Easy
+                                        Booking</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/beach.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">Beach
+                                    </p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
+                            </div>
+                            <div class="col-2 p-3">
+
+                                <div class="img-overlay" style="  border: 1px solid black; width: 150px;
+      height: 150px;
+      background-color: rgb(230, 230, 223);
+      border-radius: 50%;
+      height: 150px;">
+                                    <img src="https://images.emtcontent.com/holiday-img/home-img/family-retreat.svg"
+                                        style="margin-left: 50px; margin-top: 20px;" alt="">
+                                    <p style="text-align: center;font-style: inherit; font-size: large; font:bold">
+                                        Family Retreat</p>
+                                    <p style="text-align: center;font-style: inherit; font:bold; font-size: small">
+                                        Explore Now</p>
+                                </div>
+
                             </div>
 
                         </div>
                     </div>
 
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <img src="https://images.emtcontent.com/holiday-img/home-img/next.svg"
+                        style="width: 50px; height: 50px;margin-right: 150px; margin-bottom: 20px;"
+                        class="d-block w-100" alt="...">
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <img src="https://images.emtcontent.com/holiday-img/home-img/prev.svg"
+                        style="width: 50px; height: 50px; margin-left: 150px; margin-bottom: 20px;"
+                        class="d-block w-100" alt="..."> <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                tabindex="0">
-                <div class="row p-5 mt-5 text-center">
-                    <div class="row">
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/vietnam-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Vietnam</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 23000 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
-                            </div>
-                        </div>
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/dubai-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Dubai</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 23000 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
-                            </div>
-                        </div>
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/bali-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Bali</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 19500 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
-                            </div>
 
-                        </div>
-                        <div class="col-3 p-3">
-                            <a href="image\path\to\your\image.jpg"> <img style="border-radius: 20px;"
-                                    src="https://images.emtcontent.com/holiday-img/home-img/europe-handpckd.webp"
-                                    alt="Brokerage" class="img-fluid">
-                            </a>
-                            <div class="img-overlay" style="background-color: antiquewhite; border-radius: 20px;">
-                                <p>Europe</p>
-                                <price>
-                                    <p> <a style="font-weight: lighter;">From</a> &#x20b9; 88000 &nbsp;&nbsp;&nbsp; <a
-                                            href="#" style="text-decoration: none;">Explore &rarr; </a> </p>
-                                </price>
-                            </div>
 
-                        </div>
-                    </div>
-
-                </div>
-            </div>
 
         </div>
+        
     </div>
+    
 
     </div>
+    
+    </div>
+    
+
+
 </body>
 
 <script src="index.js"></script>
